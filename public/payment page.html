@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment form</h1>
+        <p> Name : <input type="text" name = "name" required></p>
+        <fieldset>
+        <legend>Gender</legend>
+        <p>Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id="" required></p></fieldset>
+        <p>Email<input type="email" name="mail" id ="mail"></p>
+        <p><input type="number" name="pin" id="pincode"></p>
+
+    
+    <p>Address: <textarea cols="30" rows ="10"></textarea></p>
+    <h2>Payment information</h2>
+    <p>UPi
+        <select name="Upi" id="card type" required>
+            <option value="">--select a mode of upi payment--</option>
+            <option value="Googlepay">Googlepay</option>
+            <option value="Ru pay">Rupay</option>
+            <option value="paytm">paytm</option>
+            
+        </select>
+    </p>
+    <h3>Info of card linked with upi</h3>
+    <p>Expiry date :<input type="date" name="date" id="date"></p>
+    <p>CVV :<input type="password" name="cvv" id="cvv"></p>
+    <p><input type="submit" value="Pay now" id="Pay now"></p>
+
+    
+
+
+       
+        
+    </form>
+    
+    
+</body>
+</html>
